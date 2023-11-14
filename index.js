@@ -1,7 +1,7 @@
 // Code your solution in this file!
-const returnFirstTwoDrivers = (arr) => [arr[0], arr[1]];
+const returnFirstTwoDrivers = (arr) => arr.slice(0, 2);
 
-const returnLastTwoDrivers = (arr) => [arr[arr.length-2], arr[arr.length-1]]
+const returnLastTwoDrivers = (arr) => arr.slice(-2);
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
